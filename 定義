@@ -1,3 +1,13 @@
+拡張子
+翻訳＝コンパイル
+診断メッセージ:diagnostic message
+関数呼び出し:function call
+実引数：argument
+書式文字列:format string
+変換指定：conversion specification // "d%"(続く実引数の値を10進数decimalで表示せよ)
+文字列リテラル(string literal)：一連の文字を二重引用符”で囲んだもの。
+
+
 定数：constant
 変数：variable
 宣言：declaration
@@ -6,7 +16,8 @@
 
 Scanf関数による読み込みでは、実引数として与える変数名の前に"＆"を付ける必要がある。(int型が格納できる数値には限りがありますので、極端に大きな数値や小さな負の数値を読み込むことはできません)。
 
-変換指定："d%"
+\a:警報(alert)を表す拡張表記,
+
 
 格納：store
 
@@ -23,6 +34,16 @@ printf("%dです。 \n",  no * 6);
 
 
 C Programを実行させるには、理論上は八段階の翻訳フェーズ(translation phase)を経ます。Source Programを実行させるために必要なsoftwareのことを処理系(implementation)と呼ぶ。
+
+
+puts関数（末尾のsはstringに由来し、一般にput+sと発音する）
+put("...")は　printf("...\n")とほぼ同じ働きをします。　
+
+
+
+
+
+
 
 
 
