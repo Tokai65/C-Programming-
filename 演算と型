@@ -16,6 +16,22 @@
 
 scanf("%d%d",&a,&b) 　　実引数と一対一で対応するので、　変換指定は構わん
 
+3、aveと符号を反転する
+
+4、
+単項算術演算子(unary operator)     //  単項＋演算子　+a aの値
+二項演算子(binary operator)
+三項演算子(tenary operator)
+
+
+単純代入演算子(simple assignment operator)　　　　//  a=b 　bをaに代入。
+
+式(expression)と代入式 
+// vx + 32  加算を行う式
+// vc = vx + 32  代入式(assignment expression)
+// vc = vx + 32; 式文(expresion statement)
+
+
 
 
 
