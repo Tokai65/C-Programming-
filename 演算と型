@@ -35,9 +35,33 @@ scanf("%d%d",&a,&b) 　　実引数と一対一で対応するので、　変換
 
 6、型
 
+integer constant(定数) / floating constant 
+
 浮動小数点数floating-point number
 
-オブジェクト：
+オブジェクト：それぞれの型には固有の性質があり、その性質をそっくり受け継いて作られた変数のことを、オブジェクトと呼ぶ。
+
+double型の変数に値を読み込むときにscanf関数に与える変換指定は%lfです。また、printf関数でdouble型の値を表示するための変換指定は%fです。
+変換指定は%f：floating-pointの頭文字。小数点以下の部分が6桁表示される。
+
+
+
+変換指定の使い分け
+　　　　　　　　　　　　　　　　　10進数のint型　　　　　double型
+prinf関数による表示            printf("%d",no);    printf("%f",no);
+scanf関数による表示            scanf("%d",%no);    scanf("%lf",$no);
+
+
+演算の対象となるオペランドの型が異なるとき、小さい方の型のオペランドは、より大きくて懐の広い方の型に変換された上で演算が行われる。
+
+
+例：printf("aの値はbの%f%%です。\n", a / b * 100);
+
+
+
+
+
+
 
 
 
