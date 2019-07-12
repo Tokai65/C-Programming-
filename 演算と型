@@ -26,10 +26,29 @@ scanf("%d%d",&a,&b) 　　実引数と一対一で対応するので、　変換
 
 単純代入演算子(simple assignment operator)　　　　//  a=b 　bをaに代入。
 
-式(expression)と代入式 
+5、式(expression)と代入式 
 // vx + 32  加算を行う式
 // vc = vx + 32  代入式(assignment expression)
-// vc = vx + 32; 式文(expresion statement)
+// vc = vx + 32; 式文(expresion statement)　 　";"セミコロンが付くこと
+
+
+
+6、型
+
+浮動小数点数floating-point number
+
+オブジェクト：
+
+
+
+
+
+
+
+
+
+
+
 
 
 
