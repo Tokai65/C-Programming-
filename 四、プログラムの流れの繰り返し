@@ -68,10 +68,22 @@ do {
 do文　...　後判定繰返し：ループ本体を実行した後に判定を行う。
 while文　...　前判定繰返し：ループ本体を実行した前に判定を行う。
 
-8、
 
 
+8、前置増分演算子と前置減分演算子
 
+++a 　aの値を一つだけ増やす（式全体を評価すると、増分後の値となる）。
+--a
+
+
+9、Key word
+
+  auto     / break  / case    / char   / const    / continue 
+  default  / do     / double  / else   / enum     / extern 
+  float    / for    / goto    / if     / int      / long 
+  register / return / short   / signed / sizeof   / static
+  struct   / switch / typedef / union  / unsigned / void
+  volatile / while
 
 
 
