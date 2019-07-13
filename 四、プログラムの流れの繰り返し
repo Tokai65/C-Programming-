@@ -52,6 +52,24 @@ do {
 
 
 
+6、複合代入演算子(compound assignment operator)  //  +=
+
+ほぼ同じ：　sum = sum + no  //  sum += no（メリット：簡潔）
+
+
+
+7、後置増分演算子(postfixed increment operator)　と　後置こうち減分演算子(postfixed decrement operator)
+
+ほぼ同じ：　no = no + 1 // no++
+
+＊最後に画面に表示されるnoの値は0ですが、whie文の終了時には、その値は-1となっていることに注意する。
+＊do文のループ本体は少なくとも一回は実行されるのに対し、 while文のループ本体は１回も実行されない可能性があります。この点はdo文とwhile文の決定的な違いです。
+
+do文　...　後判定繰返し：ループ本体を実行した後に判定を行う。
+while文　...　前判定繰返し：ループ本体を実行した前に判定を行う。
+
+8、
+
 
 
 
