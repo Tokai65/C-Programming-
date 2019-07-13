@@ -23,3 +23,34 @@ loop本体
 
 ・ x && y !(!x || !y)は等しい。
 ・ x || y !(!x && !y)は等しい。
+
+例コード：
+
+do{
+   print("もう一度？【Yes...0/No...9】:")
+   scanf("%d", &retry);
+  } while(!(retry == 0 || retry == 9));
+  
+論理否定演算子！を使って書き換えた式!(retry == 0 || retry == 9)は、繰り返しを終了するための終了条件の否定です。
+
+
+
+5、do文による加算
+まずaとbの小さい方の値をlowerとupperに求める。
+
+変数sumへの代入
+変数noへの代入
+
+
+do {
+    sum += no;
+    no++;
+}  while (no <= upper);  / upperまでの合計を求める /
+
+
+
+
+
+
+
+
