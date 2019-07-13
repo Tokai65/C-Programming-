@@ -64,6 +64,7 @@ scanf関数による表示            scanf("%d",%no);    scanf("%lf",$no);
 キャスト演算子(cast operator): （型名）a  aの値を型名で指定された型の値に変換したものを生成。
 
 
+
 8、変更指定
 
 %if「浮動小数点数を小数点以下を1桁で表示せよ」
@@ -71,77 +72,6 @@ scanf関数による表示            scanf("%d",%no);    scanf("%lf",$no);
 %09.9f  // 0フラグ・最小フィルード幅・精度・変換指定子 //
 
 
-9、if　もしも　ならば
-
-制御式(control expression)
-
-
-10、if else
-
-例：　約数の判定
-
-
-11、等価演算子(equality operator)
-
-==演算子  a == b  (int型)
-!=演算子  a != b aとbの値が等しなければ1、そうでなければ0　(int型)
-
-
-
-12、関係演算子(relational operator)  // (int型 👌)
-
-13、絶対値
-
-if (num < 0)
-   printf("絶対値は%dです。",-num);
-else
-   print("絶対値は%dです。",num);
-
-
-14、評価 evaluation // 式の値を調べること、調べる次第で採用する。
-
-
-15、条件演算子(conditional operator) // 3つのオペランドを必要とする３項演算子です。
-a ? b : c  aが非0であれば、bを評価した値、そうでなければcを評価した値。
-
-
-16、論理演算子
-
-論理AND演算子　a && b aとbの値のいずれも非0であれば1、そうでなければ0。(int型)
-論理or演算子　 a || b aとbの値の一方でも非0であれば1、そうでなければ0。(int型)
-
-
-17、短路評価(short circuit evaluation)
-
-//左オペランドの評価の結果のみで明確になる場合に、右オペランドの評価が行われないことです。
-
-
-18、判定の回数
-
-if (point < 0 || point >100)
-    puts("不正な点数です。")
-    
-
-19、複合文(ブロック // conpound statement)
-
-if(a<b)min=a; max=b; else min=b; max=a;   (X)
-else以後は理解不能
-
-
-
-20、switch文とbreak文
-
-ある単一の式の値に基づいて、プログラムの流れを複数に分岐するときは、switch statementを使うと簡潔に表現できる。
-
-swith(式)　　囲まれた制御式の型は整数でなければなりません
-名札：ラベル
-
-defaultラベル
-
-選択文(selection statement) // 流れを選択的に分岐させる文をまとめて呼ぶ
-
-
-21、
 
 
 
