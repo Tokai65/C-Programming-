@@ -111,6 +111,44 @@ while   ... 行の先頭に}がない　 while 文の1部
 
 
 
+12、繰り返しの回数
+
+while文の制御式がi < noに変更されています。繰り返しの回数が no-1 回となる。
+
+実現コード：
+
+int i = 1;
+printf("{");
+while (i <= no) {
+    printf("%d",i);
+    if(i == no)
+       printf("}\n");
+    else
+       printf(",");
+    i++;
+}
+
+______________________________________________________________________________________________
+
+
+#include <stdio.h>
+
+int main(void)
+{
+    int no;
+    
+    print("正の整数");
+    scanf("%d",&no);
+
+    if(no >= 1){
+       while (no-- > 0)
+           putchar('*');
+       putchar('\n');    
+    }
+    return 0;
+}
+
+
 
 
 
