@@ -347,8 +347,19 @@ int main(void)
     int sum = 0;
     int n;
     
-    printf("nの値")
+    printf("nの値":");
+    scanf("%d",&n);
+    
+    for(i=1; i<=n; i++)
+       sum += i;
+       
+    printf("1から%までの和は%dです。\n",n,sum);
+    
+    return 0;
+}
+      
 
+for文
 
 
 
